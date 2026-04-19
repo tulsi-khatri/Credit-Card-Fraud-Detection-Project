@@ -40,9 +40,16 @@ An unsupervised anomaly detection model used to identify rare fraudulent transac
    - Confusion Matrix
    - Classification Report  
 
--> Results Summary:
-- Logistic Regression performs well as a baseline model but struggles with imbalanced data.
-- Isolation Forest performs better in detecting anomalies and rare fraud cases.
+
+-> Results and visaulisation:
+The model successfully distinguishes between normal and fraudulent transactions.
+
+- Transaction Distribution (Normal vs Fraud)
+- <img width="1792" height="1120" alt="Screenshot 2026-04-19 at 1 33 40 PM" src="https://github.com/user-attachments/assets/ff2ccb91-70f4-49a2-8828-a0a9642942c7" />
+
+-> Observation:
+Most transactions are normal , while fraudulent transactions are very rare , showing a highly imbalanced dataset.
+
 
 -> Conclusion:
 Fraud detection is a challenging problem due to highly imbalanced data. Unsupervised anomaly detection methods like Isolation Forest provide better results compared to basic supervised models in this case. Future improvements can include advanced models like XGBoost, deep learning approaches, and imbalance handling techniques such as SMOTE.
